@@ -1,0 +1,586 @@
+body{
+	font-family: lucida bright;
+}
+
+header,footer,section {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*inicio header*/
+
+header{
+	height: 250px;
+	width: 600px;
+	background: midnightblue;
+}
+
+#nombre{
+	width: 600px;
+	height: 50px;
+	margin-left: 180px;
+	margin-right: auto;
+	margin-top: 80px;
+	padding-top: 20px;
+	color: antiquewhite;
+}
+
+#mail{
+	width: 600px;
+	height: 50px;
+	margin-left: 185px;
+	margin-right: auto;
+	color: antiquewhite;
+}
+
+#botonera{
+	width: 800px;
+	height: 60px;
+	position: relative;
+	margin-left: 60px;
+	margin-right: auto;
+}
+
+#botones{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	padding-top: 20px;
+}
+
+#botones li{
+	display: inline;
+	font-size: 18px;
+}
+
+#botones li a{
+	display: inline-block;
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: grey;
+}
+
+#botones li a:hover{
+	color: black;
+}
+
+
+}
+
+
+/*fin header*/
+
+/*inicio sección 1*/
+
+
+#datos{
+	height: 480px;
+	margin-top: 200px;
+	padding-top: 150px;
+	background-color: darkred;
+	color: darkgray;
+}
+
+
+/*fin sección 1*/
+
+/*inicio sección 2*/
+
+#experiencia{
+	height: 400px;
+	width: 960px;
+	position: relative;
+	margin-top: 50px;
+	background: -webkit-linear-gradient(bottom, black, grey, black)
+}
+
+#reseña{
+	height: 360px;
+	width: 480px;
+	background: url(Imagenes/nuevoana.png) center;
+	background-size: cover;
+	float: left;
+	margin: 20px;
+	margin-left: 40px;
+}
+
+#fotoreseña{
+	height: 400px;
+	width: 320px;
+	float: right;
+	margin: 20px;
+	margin-right: 10px;
+}
+
+#fotoreseña p{
+	color: white;
+	font-size: 14px;
+	text-align: right;
+}
+
+#fotoreseña h2{
+	font-size: 18px;
+}
+
+#fotoreseña h3{
+	font-size: 16px;
+}
+
+#fotoreseña h2, h3{
+	color: white;
+	text-align: right;
+}
+
+
+/*fin sección 2*/
+
+/*inicio sección 3*/
+
+#musica{
+	height: 600px;
+	background: -webkit-linear-gradient(bottom, grey, black);
+	background: linear-gradient(bottom, grey, black);
+	position: relative;
+}
+
+#fotodisco2 img {
+	width: 100%;
+}
+
+#fotodisco1 img {
+	width: 100%;
+}
+
+#fotodisco2,#fotodisco1{
+	height: 240px;
+	width: 240px;
+	float: left;
+	margin: 20px;
+	margin-left: 60px;
+}
+
+#reseñadisco2,#reseñadisco1{
+	height: 240px;
+	width: 560px;
+	float: left;
+	margin: 20px;
+	color: grey;
+	font-size: 14px;
+}
+
+/*fin sección 3*/
+
+/*inicio sección bootstrap*/
+
+#comunidad{
+	background:-webkit-linear-gradient(bottom, darkgrey, grey);
+	background: linear-gradient(bottom, darkgrey, grey);
+}
+
+
+input.form-control, textarea.form-control{
+	margin-bottom: 5px;
+}
+
+
+.card{
+	margin: 10px;
+}
+
+.card h5{
+	font-size: 16px;
+}
+
+.card p{
+	font-size: 14px;
+}
+
+#f2{
+	margin: 10px;
+}
+
+#f2 h4{
+	font-size: 18px;
+}
+
+
+#fotosjs {
+}
+
+/*fin seccion bootstrap*/
+
+/*inicio sección footer*/
+
+footer {
+	background: -webkit-linear-gradient(bottom, white 50%, midnightblue);
+	background: linear-gradient(bottom, white 60%, midnightblue);
+	height: 180px;
+}
+
+ 
+#email{
+	width: 220px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding-top: 30px;
+	background: url(Imagenes/loguito.jpg) no-repeat center;
+}
+
+
+
+/* 
+
+
+
+RESPONSIVE
+
+
+
+
+*/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+header, footer, section {
+	width: 580px;
+	}
+
+header{
+	height: 360px;
+}
+
+
+#nombre{
+	width: 580px;
+}
+
+#botonera{
+	width: 580px;
+	margin-left: 60px;
+}
+
+#botones li{
+	padding-left: 0px;
+}
+
+#botones li a{
+	width: 100px;
+}
+
+#redes{
+	width: 360px;
+}
+
+#redsocial{
+	margin-left: 20px;
+}
+
+#redsocial li{
+	padding-left: 0;
+}
+
+#redsocial li a{
+	margin-left: 0px;
+}
+
+#facebook, #youtube, #spotify, #instagram {
+	width: 80px;
+}
+
+/*fin header*/
+
+/*inicio sección 1*/
+
+#inicio{
+	height: 640px;
+	width: 580px;
+	background: url(Imagenes/claustro_3.jpg);
+	margin-top: -80px;
+}
+
+#claustro{
+	width: 480px;
+	position: relative;
+	top: 340px;
+	padding: 20px;
+	font-size: 13px;
+}
+
+/*fin sección 1*/
+
+/*inicio sección 2*/
+
+#labanda{
+	width: 580px;
+	height: 800px;
+	margin-top: -20px;
+	padding-top: 20px;
+}
+
+#reseña{
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
+#fotoreseña{
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*fin sección 2*/
+
+/*inicio sección 3*/
+
+#musica{
+	height: 1080px;
+	margin-top: -20px;
+	padding-top: 20px;
+}
+
+#fotodisco2,#fotodisco1{
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#reseñadisco2,#reseñadisco1{
+	height: 240px;
+	width: 400px;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+}
+
+/*fin sección 3*/
+
+/*inicio sección 3*/
+
+footer {
+	height: 100px;
+	background: -webkit-linear-gradient(bottom, white 40%, grey);
+	background: linear-gradient(bottom, white 40%, grey);
+}
+
+#redes1{
+	width: 440px;
+	margin-top: 60px;
+}
+
+#instagram1{
+	padding-left: 0;
+}
+
+#derechosreservados{
+	margin-top: -128px;
+}
+
+}
+/*fin @media 600px a 1023px */
+
+
+
+
+
+
+
+/*inicio @media hasta 599px */
+
+@media all and (max-width: 599px) {
+
+header,footer,section {
+	width: 100%;
+	height: auto;
+}
+
+/*inicio header*/
+
+header{
+	background: -webkit-linear-gradient(right, white 36%, black 70%);
+	background: linear-gradient(right, white 36%, black 70%);
+}
+
+#nombre{
+	width: 100%;
+	height: 110px;
+	background: url(Imagenes/loguito.jpg) no-repeat right;
+}
+
+#botonera{
+	width: 100%;
+	height: auto;
+	background: -webkit-linear-gradient(right, white 36%, black 70%);
+	background: linear-gradient(right, white 36%, black 70%);
+	margin-left: 0px;
+}
+
+#botones{
+	padding-left: 20px;
+}
+
+#botones li{
+	display: block;
+}
+
+#botones li a{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	color: white;
+}
+
+#botones li a:hover{
+	color: grey;
+}
+
+#redes{
+	width: 100%;
+	height: auto;
+	top: 0px;
+	border-radius: 0;
+	background: -webkit-linear-gradient(right, white 36%, black 70%);
+	background: linear-gradient(right, white 36%, black 70%);
+}
+
+#redsocial{
+	padding-top: 20px;
+}
+
+#redsocial li{
+	display: block;
+	padding-left: 30px;
+	padding-top: 0px;
+}
+
+#facebook, #youtube, #spotify, #instagram {
+	width: 100%;
+	height: 80px;
+	float: none;
+}
+
+/*fin header*/
+
+/*inicio sección 1*/
+
+#inicio{
+	width: 100%;
+	height: auto;
+	background: -webkit-linear-gradient(right, white 36%, black 70%);
+	background: linear-gradient(right, white 36%, black 70%);
+	margin-top: -12px;
+}
+
+#claustro{
+	height: auto;
+	width: 50%;
+	margin: 0px;
+	padding-top: 0px;
+	padding: 20px;
+	font-size: 12px;
+}
+
+/*fin sección 1*/
+
+/*inicio sección 2*/
+
+#labanda{
+	height: auto;
+	width: 100%;
+	margin-top: -20px;
+	background: -webkit-linear-gradient(right, white 36%, black 70%);
+	background: linear-gradient(right, white 36%, black 70%);
+}
+
+#reseña{
+	width: 80%;
+	height: auto;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 20px;
+}
+
+#fotoreseña{
+	width: 60%;
+	height: auto;
+	float: none;
+	margin-left: 40%;
+	margin-right: 0;
+	position: relative;
+	top: 20px;
+}
+
+#fotoreseña p{
+	color: black;
+}
+
+#fotoreseña h2,h3{
+	color: black;
+}
+
+/*fin sección 2*/
+
+/*inicio sección 3*/
+
+#musica{
+	height: auto;
+	width: 100%;
+	margin-top: -20px;
+	padding-top: 20px;
+	background: -webkit-linear-gradient(right, white 36%, black 70%);
+	background: linear-gradient(right, white 36%, black 70%);
+}
+
+#fotodisco2,#fotodisco1{
+	width: 80%;
+	height: auto;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#reseñadisco2,#reseñadisco1{
+	width: 60%;
+	height: auto;
+	float: none;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+	padding: 20px;
+}
+
+/*fin sección 3*/
+
+#comunidad{
+	margin-top: -20px;
+}
+
+footer {
+	background: -webkit-linear-gradient(left, white 40%, midnightblue);
+	background: linear-gradient(left, white 40%, midnightblue);
+}
+
+
+#email{
+	width: 100%;
+	height: 100px;
+	margin-right: 50px;
+	margin-top: 0px;
+	margin: 20px;
+}
+
+
+
+}
+/*fin @media hasta 599 px*/
+
+

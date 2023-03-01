@@ -1,0 +1,146 @@
+body{
+	font-family: courier new;
+}
+
+header,footer,section {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+/*inicio header*/
+
+header{
+	height: 250px;
+	background: midnightblue;
+
+}
+
+#foto{
+
+}
+
+#nombre{
+	width: 800px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	padding-top: 20px;
+	color: antiquewhite;
+}
+
+#mail{
+	width: 800px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: antiquewhite;
+}
+
+#botonera{
+	width: 800px;
+	height: 60px;
+	position: relative;
+	margin-left: 60px;
+	margin-right: auto;
+}
+
+#botones{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	padding-top: 20px;
+}
+
+#botones li{
+	display: inline;
+	font-size: 18px;
+}
+
+#botones li a{
+	display: inline-block;
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: grey;
+}
+
+#botones li a:hover{
+	color: black;
+}
+
+
+}
+
+
+/*fin header*/
+
+/*inicio sección 1*/
+
+section{
+	height: auto;
+}
+#datos_personales {
+	height: 100px;
+	color: darkslategray;
+	padding-top: 50px;
+}
+
+
+/*fin sección 1*/
+
+/*inicio sección 2*/
+
+#trabajo, #habilidades0 {
+	height: 500px;
+	width: 200 px;
+	float: left;
+	margin-top: 50px;
+
+}
+
+#trabajo a, #habilidades0 a {
+	text-decoration: none;
+}
+
+#trabajo1{
+	height: 500px;
+	width: 720px;
+	color: #F2F4F4;
+	font-size: 14px;
+	margin-left: 60px;
+	float: left;
+	margin-top: 50px;
+}
+
+#habilidades1{
+	height: 250px;
+	width: 720px;
+	color: #F2F4F4;
+	font-size: 14px;
+	margin-left: 60px;
+	float: left;
+	margin-top: 50px;
+}
+
+/*inicio sección footer*/
+
+footer {
+	height: 100px;
+}
+
+ 
+#email{
+	width: 220px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	}
+
+
+
+/* 
